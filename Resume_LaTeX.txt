@@ -1,0 +1,131 @@
+
+%%%%%%
+% Vivek Anand - curriculum vitae
+% Edited using gedit
+% Uses LaTeX and moderncv
+%%%%%%
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[grey]{classic}
+
+\usepackage[utf8]{inputenc} % character encoding
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+\usepackage{hyperref}
+
+\AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Vivek}
+\familyname{Anand}
+\title{Résumé}
+\address{#103, Royal Crescent Society, Viman Nagar}{Pune, India}
+\phone{+91-8554836945}
+\email{anand.vivek13@gmail.com}
+\homepage{www.anandvivek.com}
+
+% \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+
+
+\begin{document}
+\maketitle
+
+% --------------------------------------
+% Research Interests
+% --------------------------------------
+
+\section{Interests}
+\cvlistitem{Open Source, Tangible Interactive Desktops, Surface Computing, HCI, Multitouch, Interaction Design, User Interface, User Experience, Accessibility}
+
+
+% --------------------------------------
+% Education
+% --------------------------------------
+
+\section{Education}
+\cventry{2007 - 2011}{B.Tech \textit{Information Technology}}{Rajasthan Technical University}{ Engineering College Bikaner}{66\%}{}
+\cventry{}{STD XII}{BIEC}{B.P.S College}{65\%}{}
+\cventry{}{STD X}{BSEB}{High School Sahebganj}{68\%}{}
+
+\section{Technical skills}
+\cvcomputer
+{\textbf{Web Development}}{HTML5, CSS3, Javascript, Php, Mysql}
+{\textbf{CMS}}{Joomla, Wordpress, Drupal, Magento}
+
+
+\cvcomputer
+{\textbf{Frameworks}}{Bootstrap, Foundation, 960gs, JQuery, TUIO}
+{\textbf{Design Abilities}}{Grid based layout, Typography, Colour theory, Iconography, Responsive design}
+
+\cvcomputer
+{\textbf{Design Tools}}{Photoshop, GIMP, Illustrator}
+{\textbf{Others}}{LESS, Sass, git, pyTenjin, Agile Process, Wireframe, LAMP} 
+
+{}{}
+
+% --------------------------------------
+% WORK EXPERIENCE
+% --------------------------------------
+\section{Work Experience / Projects}
+
+\cventry{May 2013 - Present}{UI/UX Engineer at Siminars}{}{}{}{Led major redesign of the product targeting modern grid layout, responsive design.
+I was responsible for product major release which had UI/UX enhancements of existing features along with newly designed forum, community, affiliates, Admin Dashboard. }
+
+\cventry{Nov 2012 - May 2013}{UI Engineer at Cheapesto}{}{}{}{Worked as a User Interface technologist, my prime responsibility was user experience, usability, prototyping, wire-frame design, UI Design and Development, accessibility testing.}
+
+\cventry{June 2011 - Nov 2012}{Front-end developer at Glomarc, Cubic Computing Pvt. Ltd}{}{}{}{I was responsible for the front-end development as well as involved in variety of tasks including user experience design, back-end development, visual design, server setup and maintenance.}
+
+\cventry{September 2012}{BloodLine}{}{}{}{An android based mobile web social awareness application which connects blood seeking donors / recipients via facebook profile to donate or receive blood in urgency.}
+
+\cventry{March 2012}{Sphero}{}{}{}{An arduino based smartphone application which ameliorates the concept of a human-centered virtual cloud sphere and keeps a track of things we care about. Prototyped and developed at Design Innovation Workshop conducted by MIT Media Lab.}
+
+\cventry{December 2011}{Camera Simulator for Kids}{}{}{}{An interactive training tool made for kids to assist them in visualizing the 
+outcome of digital photos.}
+
+\cventry{May 2010 - August 2010}{Concept-S Mutlitouch Wall}{}{}{}{An interactive 100" first multitouch wall from India designed using Laser Light Plane LLP Method and showcased in Degree Design Show at IDDC.}
+
+\cventry{Feb 2010 - April 2010}{Fun Touch}{}{}{}{A multitouch overlay acrylic mask which fits on any generic LCD screen and allows it  
+to work as touch sensitive display, without any manipulation in monitor hardware.}
+
+\cventry{Oct 2009 - Dec 2009}{Foldy Touch}{}{}{}{A foldable, low-cost, pocketable design prototyped as a light weighted wooden clipping 
+multitouch hardware for a gesture sensing system that could be made to fit on a regular monitor or laptop.}
+
+\cventry{Feb 2009 - April 2009}{3D Virtual Interactive Display}{}{}{}{A 3D virtual display board which allows a person to view any 3D object from different angles by adjusting his/her angle of vision.}
+
+\cventry{Oct 2009 - Dec 2009}{Sparsh Multitouch Table}{}{}{}{A touch sensitive tabletop made using FITR techniques. It is a user interface that allows people to interact with computers and digital content same way they have interacted with everyday items their entire life: with their hands and with gestures.}
+
+% --------------------------------------
+% Conferences 
+% --------------------------------------
+
+\section{Conferences}
+
+\cventry{October 2012}{PyCon, India}{}{}{}{Attended a beginner level workshop of python development.}
+\cventry{Sept 2012}{Facebook World Hack Day, India}{}{}{}{Developed an android based mobile social awareness application Bloodline.}
+\cventry{March 2012}{MIT Media Lab Design Innovation Workshop, India}{}{}{}{Prototyped Sphero, an arduino based smartphone application which ameliorates the concept of a human-centered virtual cloud sphere and keeps a track of things we care about}
+\cventry{Dec 2009}{FOSS.IN, India}{}{}{}{Various talks on Fedora, Sahana, Maemo, KDE, Jetpack, Mozilla Weave,etc.}
+\cventry{Oct 2011}{Rajas FOSS, India}{}{}{}{Organized FOSS event at campus and delivered couple of talks.}
+
+% --------------------------------------
+% Achievements
+% --------------------------------------
+
+\section{Achievements}
+\cvlistitem{Awarded Medallions for technical project in college.}
+\cvlistitem{First Prize in Hardware Design competition in college.}
+\cvlistitem{First Prize in Paper Presentation on Open Source with HCI in college.}
+\cvlistitem{Second Prize in Robo Cricket comptetion at college technical festival.}
+\cvlistitem{First Prize in Open Software comptetion at college technical festival "Sakshama".}
+\cvlistitem{First Prize in Product Pitch contest at BITS Pilani for presenting a business model based on multitouch technology.}
+\cvlistitem{First Prize in international level Open Hardware and Software competition at IIT Kanpur for Sparsh, a mutitouch based console.}
+
+% --------------------------------------
+% Footer Links
+% --------------------------------------
+
+\footnotetext{\href{http://insidevivek.wordpress.com/}{[1]http://insidevivek.wordpress.com/}}
+\footnotetext{\href{http://anandvivek.com/}{[2]http://anandvivek.com/}}
+\footnotetext{\href{https://github.com/insidevivek}{[3]https://github.com/insidevivek}}
+\footnotetext{\href{http://www.linkedin.com/in/insidevivek}{[4]http://www.linkedin.com/in/insidevivek}}
+
+\end{document}
